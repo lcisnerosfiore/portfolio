@@ -1,0 +1,192 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    color: #E20000;
+    font-size: 36px;
+}
+p{
+    color: #6a6a6a;
+    font-size: 16px;
+}
+input, textarea{
+    border-radius: 15px !important;
+}
+nav .nav-link{
+    color: #282828;
+}
+nav .active{
+    border: #E20000 solid 1px;
+    border-radius: 20px;
+}
+#btnEnviar{
+    background-color: white;
+    color: #370a6d;
+    border-radius: 15px;
+}
+#btnEnviar:hover{
+    background-color: #370a6d;
+    color: white;
+}
+#contactos{
+    background-image: url("../Imagenes/fondo-contacto.png");
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+footer, footer a{
+    color: white;
+    font-weight: 100;
+}
+footer .fa-github{
+    font-size: 30px;
+    color: red;
+}
+footer .fa-linkedin-in{
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+.fa-whatsapp{
+    position: fixed;
+    bottom: 0px;
+    right: 80px;
+    color: white;
+    background-color: #370a6d;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 20px 20px 40px 20px;
+    font-size: 30px;
+}
+.fa-bars{
+    padding: 10px;
+    border-radius: 5px;
+}
+.navbar-toggler {
+     color: #ff4a49;
+    border: 1px solid #ff4a49;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+    background-color: #370a6d;
+    color: white;
+    border: 1px solid white;
+}
+@media (max-width: 750px){
+    #contactos{
+        background-image: url("../Imagenes/fondo-proyectos.png");
+        background-repeat: no-repeat;
+        /* background-size: 120%; */
+    }
+    footer, footer a{
+        color: #ff4a49;
+    }
+    footer .fa-github{
+        color: #ff4a49;
+    }
+    footer {
+        text-align: center;
+    }
+    .fa-whatsapp{
+        right: 50px;
+    }
+}
+#proyectos{
+    background-image: url("../Imagenes/fondo-proyectos.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#proyectos h2{
+    color: white;
+    font-size: 16px;
+}
+.color-gradiente{
+    background: rgba(184,37,20,1);
+    background: -moz-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(184,37,20,1)), color-stop(47%, rgba(214,52,30,1)), color-stop(70%, rgba(240,47,23,1)), color-stop(100%, rgba(240,47,23,1)));
+    background: -webkit-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -o-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -ms-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b82514', endColorstr='#f02f17', GradientType=1 );
+}
+#proyectos .btn-rojo{
+    color: white;
+    background-color: red;
+}
+#proyectos input, textarea, .btn {
+    border-radius: 15px !important;
+}
+#proyectos .link-rojo a {
+    color: #E20000;
+    text-decoration: none;
+    font-size: 18px;
+}
+.bloque p{
+    height: 90px;
+}
+#proyectos .img-fluid{
+    height: 210px;
+}
+#inicio{
+    background-image: url(../Imagenes/fondo-contacto.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#inicio .cohete {
+    height: 400px;
+}
+#inicio .cohete:hover {
+    height: 402px;
+}
+#inicio .input-home p {
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 600;
+}
+#inicio .btn {
+    color: #370a6d;
+    background-color: white;
+    border: none;
+}
+#inicio .btn:hover {
+    color: white;
+    background-color: #370a6d;
+    border: none;
+}
+.fa-copyright{
+    color: red;
+    font-size: 18px;
+}
+#sobre-mi  {
+    background-image: url("../Imagenes/fondo-proyectos.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#sobre-mi .img-circle {
+    margin: 4em auto;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+#sobre-mi .btn-rojo {
+    background-color: #E20000;
+    color: white;
+    font-weight: 100;
+    border-radius: 15px;
+}
+#sobre-mi .btn-rojo:hover{
+    background-color: #370a6d;
+}
+#sobre-mi .st-altura-1 div{
+    height: 200px;
+}
